@@ -1,0 +1,6 @@
+framework module Pods_Bird_FcTests {
+  umbrella header "Pods-Bird_FcTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

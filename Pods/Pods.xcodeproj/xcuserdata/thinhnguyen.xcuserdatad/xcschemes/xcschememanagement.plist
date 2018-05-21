@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PageMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Bird_Fc.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Bird_FcTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Bird_FcUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftUtils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6AA48D3AA4978342A2FCC7C45D743A44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6E3E5F7FEF649A56B86AD44628B22938</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>748D6F942CE2FCBF404F5C2E476BEC4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE7FF8BDE1BCCD40D986AF140CFFC7A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFC69A9241F7516258B621FE067E90A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

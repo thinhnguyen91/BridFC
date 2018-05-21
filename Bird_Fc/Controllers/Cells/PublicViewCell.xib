@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="PublicViewCell" customModule="Bird_Fc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="95" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="95" height="130"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqU-61-mxr">
+                        <rect key="frame" x="0.0" y="0.0" width="95" height="130"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zDD-gq-cYR">
+                                <rect key="frame" x="0.0" y="0.0" width="95" height="116"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zDD-gq-cYR" secondAttribute="height" multiplier="115:115" constant="-21" id="6mz-Lg-4gm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VTV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNc-Xg-Vc1">
+                                <rect key="frame" x="0.0" y="116" width="95" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.47843137254901957" green="0.87058823529411766" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zDD-gq-cYR" firstAttribute="leading" secondItem="fqU-61-mxr" secondAttribute="leading" id="5C3-Al-ioe"/>
+                            <constraint firstAttribute="bottom" secondItem="ZNc-Xg-Vc1" secondAttribute="bottom" id="BYy-b2-Zjo"/>
+                            <constraint firstAttribute="trailing" secondItem="zDD-gq-cYR" secondAttribute="trailing" id="baZ-k3-g2W"/>
+                            <constraint firstItem="ZNc-Xg-Vc1" firstAttribute="top" secondItem="zDD-gq-cYR" secondAttribute="bottom" id="hQS-OZ-DPG"/>
+                            <constraint firstItem="zDD-gq-cYR" firstAttribute="top" secondItem="fqU-61-mxr" secondAttribute="top" id="hpv-gp-iSM"/>
+                            <constraint firstItem="ZNc-Xg-Vc1" firstAttribute="leading" secondItem="fqU-61-mxr" secondAttribute="leading" id="i1I-DB-GP4"/>
+                            <constraint firstAttribute="trailing" secondItem="ZNc-Xg-Vc1" secondAttribute="trailing" id="qBE-JJ-9bS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fqU-61-mxr" secondAttribute="trailing" id="WLd-gD-Vip"/>
+                <constraint firstItem="fqU-61-mxr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dUq-5W-PZK"/>
+                <constraint firstAttribute="bottom" secondItem="fqU-61-mxr" secondAttribute="bottom" id="khm-w9-enA"/>
+                <constraint firstItem="fqU-61-mxr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uAk-UH-yOD"/>
+            </constraints>
+            <size key="customSize" width="83" height="100"/>
+            <connections>
+                <outlet property="imageCell" destination="zDD-gq-cYR" id="UNH-O2-mo5"/>
+                <outlet property="titleLabel" destination="ZNc-Xg-Vc1" id="U6S-a8-bAr"/>
+            </connections>
+            <point key="canvasLocation" x="-44.5" y="60"/>
+        </collectionViewCell>
+    </objects>
+</document>
